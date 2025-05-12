@@ -15,10 +15,10 @@ export default function ResultPageButton() {
           <ScanHeart /> 전체 명소 보러 가기
         </Link>
       </Button>
-      <div className="flex gap-2">
-        <Button className="font-bold flex-1">
+      <div className="flex justify-end gap-2">
+        {/* <Button className="font-bold flex-1">
           <Share aria-hidden="true" /> 공유하기
-        </Button>
+        </Button> */}
         <Button variant="outline" className="font-bold " onClick={() => reset()} asChild>
           <Link href={'/'}>
             <RotateCcw aria-hidden="true" /> 테스트 다시 하기
